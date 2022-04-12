@@ -4,9 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import "shared/css/style.css";
+import "shared/css/master-style.css";
+import { TodoProvider } from 'context/context';
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TodoProvider>
+      <App />
+    </TodoProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
