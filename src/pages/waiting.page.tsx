@@ -10,7 +10,7 @@ const WaitingPage = () => {
   const dateTimeAfterThreeDays = DEADLINE_IN_MS;
   return (
     <>
-      <CountdownTimer targetDate={DEADLINE_IN_MS} />
+      <CountdownTimer targetDate={now} />
     </>
   )
 }

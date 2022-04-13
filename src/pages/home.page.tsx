@@ -41,6 +41,9 @@ const HomePage = () => {
             <Card.Text>Btw aku lagi banyak kerjaan... nulisnya seginni dlu aja ya 🤣🤣</Card.Text>
             <Card.Text>Udah 2 hari ga kerjaa buat bikin web ini HAHAHA 🤦🤦 JANGAN DITIRU SODARA2 !!</Card.Text>
             <Card.Text>Anything For You pokoeee 🤗</Card.Text>
+            <Card.Text>Semogaaa di bertambahnya umur, kamuuu selaluu diberikan kebahagiaaan....</Card.Text>
+            <Card.Text>Having you in my lifeee.... ituu aku gabisa describe dengan kata-kata... intinyaa rezeki aku dan bahgianya aku yang support aku selaluuuu.... </Card.Text>
+            <Card.Text>Again and again.... happy birthdayy.....🤗 I Loveee yuuuuuu beeyy💕 </Card.Text>
           </Card.Body>
         </Card>
       </>
