@@ -7,7 +7,7 @@ export const GalleryComponent = () => {
   return (
     <CardGroup>
       {listImages.map((data: IListImages, i: Key) => (
-        <Card key={i} className="m-2 mb-4" style={{minWidth:"25rem"}}>
+        <Card key={i} className="m-2 mb-4">
           <Card.Img variant="top" src={data.path} />
           <Card.Body>
             <Card.Title>{data.title}</Card.Title>

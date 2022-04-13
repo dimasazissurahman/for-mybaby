@@ -5288,6 +5288,7 @@ input[type="button"].btn-block {
   .card-group > .card {
     flex: 1 0 0%;
     margin-bottom: 0;
+    min-width: 25rem;
   }
   .card-group > .card + .card {
     margin-left: 0;
