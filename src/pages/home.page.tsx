@@ -1,6 +1,7 @@
 import { Button } from 'components/button/button.common';
 import { CountdownTimer } from 'components/countdown/countdown';
 import { GalleryComponent } from 'components/home/gallery.component';
+import { RSVPComponent } from 'components/home/rsvp.component';
 import React, { Key, useState } from 'react'
 import { Card, Col, Modal, Nav, Row, Tab } from 'react-bootstrap';
 import { IQuestionList, questionList } from 'shared/constants/form.constant';
@@ -63,7 +64,7 @@ const HomePage = () => {
     {
       name: "RSVP",
       content: <>
-        <h3>Under Maintenance</h3>
+        <RSVPComponent />
       </>
     }
   ]

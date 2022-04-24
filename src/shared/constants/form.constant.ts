@@ -6,18 +6,18 @@ export interface IQuestionList {
 }
 export const questionList:IQuestionList[] = [
   {
-    question: "Tanggal berapa kita pertama kali bertemu ? (Format Jawaban DD-MM-YYYY)",
-    answer: "08-05-2021",
+    question: "Seneng Ga Hari ini ??",
+    answer: "Seneeeng dongz",
     page: 1
   },
   {
-    question: "Apa nama tempat kita nugas bareng, yang memorable dan pertanda kita jadian ?",
-    answer: "Pasir Angin",
+    question: "Kira-kira harapan kamu apa untuk umur ke 24 ?",
+    answer: "-",
     page: 2
   },
   {
-    question: "Apa warna favorit akuuwww ?",
-    answer: "biru langit",
+    question: "Lagi kepengen apa kamuuuu ?",
+    answer: "-",
     page: 3
-  }
+  },
 ]
